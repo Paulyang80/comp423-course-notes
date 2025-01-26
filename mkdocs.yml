@@ -1,3 +1,16 @@
 site_name: COMP423 Course Notes
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - search.highlight
+    - navigation.sections
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - codehilite
+nav:
+  - Welcome to Paul's Course Notes: index.md
+  - Tutorials:
+      - Setting up a dev container for Rust: tutorials/rust-setup.md
+
